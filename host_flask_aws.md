@@ -24,7 +24,7 @@ Run the following line of code at the command line on the instance:
 
 ```
 sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 8000
-apt-get install iptables-persistent
+sudo apt-get install iptables-persistent
 ```
 
 The first line forwards requests at port 80 to port 8000. This is important.
