@@ -15,6 +15,7 @@ Get all your stuff onto the instance. This potentially includes:
 * App code.
 * Python and libraries.
     * Download anaconda: `wget http://repo.continuum.io/archive/Anaconda2-4.0.0-Linux-x86_64.sh`
+    * Install anaconda: `bash Anaconda2-4.0.0-Linux-x86_64.sh`
 * ...Profit?
 
 ## Step 3 - Setup Ports
