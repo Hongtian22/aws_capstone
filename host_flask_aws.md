@@ -24,9 +24,12 @@ Run the following line of code at the command line on the instance:
 
 ```
 sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 8000
+apt-get install iptables-persistent
 ```
 
-This line forwards requests at port 80 to port 8000. This is important.
+The first line forwards requests at port 80 to port 8000. This is important.
+
+The second line makes it so you can persist your iptable settings. When you run it you should be prompted to save your current iptable settings. Choose yes.
 
 ## Step 4 - Setup App
 
